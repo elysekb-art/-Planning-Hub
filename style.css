@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f6f8;
+}
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 240px;
+  background: white;
+  border-right: 1px solid #e1e4e8;
+  padding: 20px;
+}
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.nav-item {
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.nav-item.active, .nav-item:hover {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+  font-weight: bold;
+}
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+.header {
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.planner-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.day-card {
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.day-card h3 {
+  background: #f8f9fa;
+  padding: 12px;
+  margin: 0;
+  font-size: 15px;
+  border-bottom: 1px solid #e1e4e8;
+  text-align: center;
+}
+.card-body {
+  padding: 15px;
+  min-height: 200px;
+}
+.lesson-block {
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.date-tag {
+  background: #e8f0fe;
+  color: #1a73e8;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.data-sheet-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
