@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26-27 Planning Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <h2>Planning Hub</h2>
+            <button class="nav-item active" data-tab="dashboard">🗓️ Dashboard</button>
+            <button class="nav-item" data-tab="warmups">🔥 Daily Warmups</button>
+            <button class="nav-item" data-tab="monthly">📅 Monthly View</button>
+            <button class="nav-item" data-tab="curriculum">🗺️ Curriculum Map</button>
+            <button class="nav-item" data-tab="rosters">👥 Roster</button>
+        </div>
+        
+        <div class="main-content">
+            <div class="header">
+                <h1 id="page-title">26-27 Planner</h1>
+            </div>
+            
+            <div id="dashboard-grid" class="planner-grid">
+                <div class="day-card"><h3>Monday</h3><div class="card-body">Syncing rows...</div></div>
+                <div class="day-card"><h3>Tuesday</h3><div class="card-body">Syncing rows...</div></div>
+                <div class="day-card"><h3>Wednesday</h3><div class="card-body">Syncing rows...</div></div>
+                <div class="day-card"><h3>Thursday</h3><div class="card-body">Syncing rows...</div></div>
+                <div class="day-card"><h3>Friday</h3><div class="card-body">Syncing rows...</div></div>
+            </div>
+            
+            <div id="alternative-view" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
